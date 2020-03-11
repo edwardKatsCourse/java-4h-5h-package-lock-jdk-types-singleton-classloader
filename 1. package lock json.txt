@@ -1,0 +1,31 @@
+A.B.C - 9.0.3
+
+~ - 10.105.x
+
+npm install (january)
+~10.105.2 - 10.105.2
+
+npm install (march)
+~10.105.2 - 10.105.13
+
+
+^ - 10.x.x
+npm isntall (january)
+^10.105.2 - 10.105.2 
+
+npm install (march)
+^10.105.2 - 10.299.99
+
+
+
+
+C - patch version
+bug fixing, backward compatible
+
+B - minor version
+new features, backward compatible
+
+A - major version
+breaking changes, method signatures' break,
+no backward compatibility
+

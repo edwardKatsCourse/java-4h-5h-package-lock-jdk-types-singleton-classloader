@@ -1,0 +1,18 @@
+//Bill Pugh - lazy singleton (based on class loader)
+public class Singleton {
+	
+	public static String TEXT = "my txt";
+
+    private Singleton(){
+		Thread.sleep(60_000);
+	}
+    
+	//Class Loader loads this class only on first reference
+    private static class SingletonHelper {
+        private static final Singleton INSTANCE = new Singleton();
+    }
+    
+    public static Singleton getInstance(){
+        return SingletonHelper.INSTANCE;
+    }
+}

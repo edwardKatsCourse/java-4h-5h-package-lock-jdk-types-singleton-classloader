@@ -1,0 +1,9 @@
+JDK - Java
+Oracle, OpenJDK, Apple
+
+
+Java 14 - alpha
+Java 14 - beta
+Java 14 - release
+
+first 6 months - free, 7th month - paid

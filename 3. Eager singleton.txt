@@ -1,0 +1,28 @@
+class A {
+
+	//Eager singleton
+	
+	pubic static String ABC = "ABC";
+	
+	//Class loader -> synchronized
+	pubic static final A singleton = new A();
+	
+	private A() {
+		Thread.sleep(10_000);
+	}	
+}
+
+---------------------------
+
+import static A.ABC;
+
+class B {
+
+	public static void main(String [] args) {
+	
+		sout(ABC);
+	}
+
+}
+
+
